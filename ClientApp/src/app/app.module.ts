@@ -30,6 +30,8 @@ import { InsertinitiativenonplayerComponent } from './insertinitiativenonplayer/
       { path: '', component: HomeComponent, pathMatch: 'full' },
       { path: 'counter', component: CounterComponent },
       { path: 'fetch-data', component: FetchDataComponent },
+      { path: 'pcint', component: InsertinitiativeComponent },
+      { path: 'npcint', component: InsertinitiativenonplayerComponent },
     ])
   ],
   providers: [],
