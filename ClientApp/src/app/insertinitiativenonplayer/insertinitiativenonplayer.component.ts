@@ -11,5 +11,8 @@ export class InsertinitiativenonplayerComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  onSubmit() {
+    
+  }
 
 }

@@ -16,9 +16,17 @@ namespace CombatTracker.Controllers
         }
 
         [HttpGet]
-        public  Get()
+        public Initiative GetInitiativePlayer(Player player)
         {
-            
+            int initiative = random.Next(1, 20);
+            return new Initiative(player, null, initiative);
+        }
+
+        [HttpGet]
+        public Initiative GetInitiativeNonPlayer(Nonplayer nonplayer)
+        {
+            int initiative = random.Next(1, 20);
+            return new Initiative(null, nonplayer, initiative);
         }
     }
 }
