@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "validator": "^13.7.0",
-    "yup": "^0.32.11"
-  }
-}
